@@ -14,6 +14,7 @@ import store from '../store'
 import AddressList from '../views/manager/address/list'
 import AddressEdit from '../views/manager/address/edit'
 import OrderConfirm from '../views/manager/order/Confirm'
+import AddressUpdate from '../views/manager/address/update'
 Vue.use(VueRouter)
 
 const routes = [
@@ -58,6 +59,9 @@ const routes = [
     },{
       path: 'order_confirm',
       component: OrderConfirm,
+    },{
+      path: 'address_update',
+      component: AddressUpdate,
     }]
   },
   {
